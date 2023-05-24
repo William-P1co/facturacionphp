@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="css/css/bootstrap.min.css">
-  <script src=""></script>
+  <script src="js/orden.js" defer></script>
   <title>Document</title>
 </head>
 <body>
@@ -49,11 +49,11 @@
         </div>
   </div>
   <div class="container-1 p-3  mt-4 text-center ">
-     <button type="button" class="btn btn-primary btn-lg">Detalle de factura</button>
+     <button type="button" class="btn btn-primary btn-lg" id="detalle">Detalle de factura</button>
   </div>
 
-    <div class="container border border-primary p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
-      <div class="row">
+    <div class="container border border-primary p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end" id='contenido'>
+      <!-- <div class="row">
         <div class="col-2">
            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
            <input type="text" class="form-control" id="nombre" placeholder="">
@@ -76,7 +76,7 @@
             <div class="col-2"><br>
             <button type="button" class="btn btn-outline-danger">-</button>
             </div>
-      </div>
-    </div>
+      </div> -->
+    </div> 
 </body>
 </html>
